@@ -271,7 +271,7 @@
 
     this.$overlay.fadeIn(this.options.fadeDuration);
 
-    $('.lb-loader').fadeIn('slow');
+    $('.lb-loader').fadeIn('fast');
     this.$lightbox.find('.lb-image, .lb-nav, .lb-prev, .lb-next, .lb-dataContainer, .lb-numbers, .lb-caption').hide();
 
     this.$outerContainer.addClass('animating');
